@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rhyme Time</string>
+    <string name="business_name">Rhyme Time</string>
+    <string name="age_group_description">for babies and toddlers\n(age: 0-3 years)</string>
+    <string name="class_description">Come and join our 30 min sing-along group with lots of English songs and rhymes with colourful balls, bubbles and puppets!</string>
+    <string name="contact_name">Kata Dévay-Bednár</string>
+    <string name="email">whatever@gmail.com</string>
+    <string name="address">1185 Budapest,\nHalomi út 103.</string>
+</resources>
