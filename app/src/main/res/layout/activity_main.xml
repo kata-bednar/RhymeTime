@@ -7,97 +7,54 @@
 
     <ImageView
         android:id="@+id/rhymetime_picture"
-        android:layout_width="160dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="12dp"
+        style="@style/ImageSettings"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/rhymetime"/>
+        android:src="@drawable/rhymetime" />
 
     <TextView
         android:id="@+id/business_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/BusinessNameSettings"
         android:layout_toRightOf="@id/rhymetime_picture"
-        android:text="@string/business_name"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="@font/alittlesunshine"
-        android:textSize="34sp"
-        android:textColor="@color/colorPrimary"/>
+        android:text="@string/business_name" />
 
     <TextView
         android:id="@+id/age_group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/rhymetime_picture"
+        style="@style/AgeGroupSettings"
         android:layout_below="@id/business_name"
-        android:text="@string/age_group_description"
-        android:layout_marginTop="6dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="12dp"
-        android:textSize="16sp"
-        android:textColor="@color/colorAccent"/>
+        android:layout_toRightOf="@id/rhymetime_picture"
+        android:text="@string/age_group_description" />
 
     <TextView
         android:id="@+id/class_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/rhymetime_picture"
+        style="@style/ClassDescriptionSettings"
         android:layout_below="@id/age_group"
-        android:text="@string/class_description"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="12dp"
-        android:textSize="14sp"/>
+        android:layout_toRightOf="@id/rhymetime_picture"
+        android:text="@string/class_description" />
 
     <TextView
         android:id="@+id/contact_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ContactNameSettings"
         android:layout_below="@id/rhymetime_picture"
-        android:text="@string/contact_name"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="14sp" />
+        android:text="@string/contact_name" />
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/EmailSettings"
         android:layout_below="@id/contact_name"
-        android:text="@string/email"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="14sp"
-        android:autoLink="email"/>
+        android:autoLink="email"
+        android:text="@string/email" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AddressSettings"
         android:layout_below="@id/email"
-        android:text="@string/address"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="14sp" />
+        android:text="@string/address" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/map_view"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/class_description"
-        android:layout_alignParentRight="true">
+        style="@style/MapSettings"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/class_description">
 
     </com.google.android.gms.maps.MapView>
 
